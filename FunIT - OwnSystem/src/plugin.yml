@@ -1,0 +1,26 @@
+name: OwnSystem
+version: 1.0
+author: M4Twaily
+main: de.funit.system.Main
+description: Own System for FunIT
+
+commands:
+  discord:
+    aliases: [ts, dc]
+  serverstats:
+  dsgvo:
+    aliases: [datenschutz]
+  release:
+  fp:
+  tp:
+     aliases: [teleport]
+  tphere:
+     aliases: [teleporthere]
+  bc:
+     aliases: [broadcast]   
+  tc:
+     aliases: [teamchat]   
+  gm:
+     aliases: [gamemode]
+  reward:
+  fp:
