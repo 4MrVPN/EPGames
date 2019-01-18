@@ -31,7 +31,9 @@ public class Main extends JavaPlugin implements Listener {
 
 	public void onEnable() {
 		main = this;
-
+		
+		System.out.println("Marvin ist Doof");
+		
 		this.getCommand("discord").setExecutor(new DiscordCMD());
 		this.getCommand("serverstats").setExecutor(new ServerStatsCMD());
 		this.getCommand("dsgvo").setExecutor(new DSGVOCMD());
